@@ -7,7 +7,7 @@ function addTask() {
         const li = document.createElement('li');
         li.innerHTML = `
             <input type="checkbox">
-            <span>${taskText}</span>
+            <span class="task-text">${taskText}</span>
             <button class="delete-btn" onclick="removeTask(this)">Delete</button>
         `;
         taskList.appendChild(li);
